@@ -1,0 +1,32 @@
+.fade-enter, .fade-move-enter {
+  transform: scale(0.5);
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active, .fade-move-enter.fade-move-enter-active  {
+  transition: all 200ms;
+
+  opacity: 1;
+  transform: scale(1.0);
+}
+
+.fade-exit, .fade-move-exit {
+  opacity: 1;
+  transform: scale(1.0);
+}
+
+.fade-exit.fade-exit-active, .fade-move-exit.fade-move-exit-active {
+  transition: all 200ms;
+
+  transform: scale(0.5);
+  opacity: 0;
+}
+
+.fade-exit-done, .fade-move-exit-done {
+  transform: scale(0.5);
+  opacity: 0;
+}
+
+.fade-move-exit.fade-move-exit-active {
+  margin-bottom: -4.4rem;
+}

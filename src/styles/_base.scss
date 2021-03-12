@@ -1,0 +1,21 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Spartan', sans-serif;
+}
+
+body {
+  background-color: $pale-green;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
